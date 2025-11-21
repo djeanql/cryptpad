@@ -48,7 +48,7 @@
     .toolbar_vars();
     @toolbar-top-bg: @cp_toolbar-bg;
     @toolbar_line-height: 32px;
-    @toolbar_top-height: 76px;
+    @toolbar_top-height: 56px;
     @toolbar_button-font: @colortheme_app-font;
 
     .ckeditor_fix();
@@ -664,7 +664,7 @@
             .cp-toolbar-title-value {
                 border: 1px solid transparent;
                 padding: 0 5px;
-                font-size: 30px;
+                font-size: 20px;
                 vertical-align: middle;
                 white-space: nowrap;
             }
@@ -679,7 +679,7 @@
             }
             .cp-toolbar-title-readonly {
                 margin-left: 10px;
-                font-size: 25px;
+                font-size: 16px;
                 font-style: italic;
                 white-space: nowrap;
                 display: inline-flex;
@@ -754,9 +754,9 @@
                 box-sizing: border-box;
                 cursor: auto;
                 width: 300px;
-                font-size: 30px !important;
+                font-size: 20px !important;
                 padding: 0 5px !important;
-                height: 43px;
+                height: 32px;
             }
         }
         .cp-toolbar-link, .cp-toolbar-notifications, .cp-toolbar-maintenance {
@@ -769,8 +769,8 @@
         }
         .cp-toolbar-notifications, .cp-toolbar-maintenance {
             text-align: center;
-            font-size: 32px;
-            margin-left: 10px;
+            font-size: 24px;
+            margin-left: 5px;
             &> button {
                 display: flex;
                 align-items: center;
@@ -848,8 +848,8 @@
                 padding: 0;
                 line-height: 0;
                 svg {
-                    height: 3rem;
-                    width: 3rem;
+                    height: 2.2rem;
+                    width: 2.2rem;
                     margin: 0;
                 }
 
@@ -926,7 +926,7 @@
                     span {
                         text-align: center;
                         width: 100%;
-                        .avatar_vars(72px);
+                        .avatar_vars(46px);
                         font-size: @avatar-font-size;
                         display: inline-flex;
                         justify-content: center;
@@ -936,7 +936,7 @@
                         }
                     }
                     &.cp-avatar {
-                        .avatar_main(64px);
+                        .avatar_main(44px);
                         border: 0;
                     }
                 }
